@@ -28,6 +28,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   overflow: auto;
+  border-style: double;
+  border-color: gray;
 }
 
 /* -- SECTIONS -- */
@@ -89,3 +91,12 @@ strong {
   font-family: 'Permanent Marker', cursive;
   font-weight: normal;
 }
+
+.grow img { 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  max-width: 40%;
+  margin: auto;
+ }
